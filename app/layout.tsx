@@ -1,5 +1,8 @@
 import { ClerkProvider } from '@clerk/nextjs'
 import './globals.css'
+
+export const runtime = "edge"; // 'nodejs' (default) | 'edge'
+
  
 export default function RootLayout({
   children,
